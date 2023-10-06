@@ -39,7 +39,7 @@ The datasets are from [n2c2](https://portal.dbmi.hms.harvard.edu/projects/n2c2-n
 
 Save the 2010 dataset to a directory in the same directory as this notebook named data/i2b2/2010/.  Likewise, save the 2012 dataset to a directory in the same directory as this notebook named data/i2b2/2012/.
 
-Run the notebook i2b2_2010_iob.ipynb to get the i2b2 2010 in the format expected by the clinicalNER.ipynb notebook.  Likewise, run the notebook i2b2_2012_iob.ipynb to get the i2b2 2012 in the correct format.
+Run the notebook i2b2_2010_iob.ipynb to get the i2b2 2010 in the format expected by the clinicalNER.ipynb notebook.  Likewise, run the notebook i2b2_2012_iob.ipynb to get the i2b2 2012 in the correct format (modified from [ClinicalBERT github repo](https://github.com/EmilyAlsentzer/clinicalBERT/blob/master/downstream_tasks/i2b2_preprocessing/i2b2_2012/Reformat.ipynb).)
 
 ### Usage
 
