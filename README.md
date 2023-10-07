@@ -39,8 +39,8 @@ The datasets are from [n2c2](https://portal.dbmi.hms.harvard.edu/projects/n2c2-n
 
 Save the 2010 dataset to a directory in the same directory as this notebook named data/i2b2/2010/.  Likewise, save the 2012 dataset to a directory in the same directory as this notebook named data/i2b2/2012/.
 
-Run the notebook i2b2_2010_iob.ipynb to get the i2b2 2010 in the format expected by the clinicalNER.ipynb notebook.  Likewise, run the notebook i2b2_2012_iob.ipynb to get the i2b2 2012 in the correct format (modified from [ClinicalBERT github repo](https://github.com/EmilyAlsentzer/clinicalBERT/blob/master/downstream_tasks/i2b2_preprocessing/i2b2_2012/Reformat.ipynb).)
+Run the notebook i2b2_2010_iob.ipynb to get the i2b2 2010 data in the IOB format expected by the clinicalNER.ipynb notebook.  Likewise, run the notebook i2b2_2012_iob.ipynb to get the i2b2 2012 data in the correct IOB format (modified from [ClinicalBERT github repo](https://github.com/EmilyAlsentzer/clinicalBERT/blob/master/downstream_tasks/i2b2_preprocessing/i2b2_2012/Reformat.ipynb).)
 
 ### Usage
 
-All code may be found and run in the notebook clinicalNER.ipynb.  The notebook assumes that the above datafile is found in the same directory in which the notebook is run.
+All code may be found and run in the notebook clinicalNER.ipynb.  The notebook assumes that the data directories are found in the same directory in which the notebook is run.  The models require using a GPU with at least 32GB of memory.
